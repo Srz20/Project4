@@ -1,0 +1,715 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="">
+  <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+  <meta name="generator" content="Hugo 0.84.0">
+  <title>Carousel Template · Bootstrap v5.0</title>
+
+  <link rel="canonical" href="https://getbootstrap.com/docs/5.0/examples/carousel/">
+
+  <!-- Bootstrap core CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="style.css">
+
+  <!-- Custom styles for this template -->
+  <link href="carousel.css" rel="stylesheet">
+  <!-- slider link -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+</head>
+
+<body>
+  <!-- header 1 -->
+  <div class="header1">
+  </div>
+
+  <!-- header end -->
+
+
+  <main>
+
+    <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true"
+          aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="./images/main_banner.png" class="img-fluid" alt="main_banner" />
+        </div>
+        <div class="container">
+          <div class="carousel-caption text-start">
+            <h3>Let's consult & start your business</h3>
+            <h2>WELCOME</h2>
+            <h1>COMPLIANTO</h1>
+            <button class="btn carousel-ghost-gtn" href="#">Your Compliance Partner</button>
+            <div class="group-btn">
+              <button class="btn transparent-btn">ARRANGE CALL</button>
+              <button class="btn transparent-btn">LIVE CHAT</button>
+            </div>
+          </div>
+          <img src="./images/rounded_banner2.png" class="img-fluid" alt="main_banner">
+        </div>
+
+
+        <div class="carousel-item">
+          <img src="./images/main_banner.png" class="img-fluid" alt="main_banner" />
+        </div>
+        <div class="container">
+          <div class="carousel-caption text-start" style="z-index:1;">
+            <h3>Let's consult & start your business</h3>
+            <h2>WELCOME</h2>
+            <h1>COMPLIANTO</h1>
+            <button class="btn carousel-ghost-gtn" href="#">Your Compliance Partner</button>
+            <div class="group-btn">
+              <button class="btn transparent-btn">ARRANGE CALL</button>
+              <button class="btn transparent-btn">LIVE CHAT</button>
+            </div>
+          </div>
+
+
+        </div>
+        <div class="carousel-item">
+          <img src="./images/main_banner.png" class="img-fluid" alt="main_banner" />
+        </div>
+        <div class="container">
+          <div class="carousel-caption text-start">
+            <h3>Let's consult & start your business</h3>
+            <h2>WELCOME</h2>
+            <h1>COMPLIANTO</h1>
+            <button class="btn carousel-ghost-gtn" href="#">Your Compliance Partner</button>
+            <div class="group-btn">
+              <button class="btn transparent-btn">ARRANGE CALL</button>
+              <button class="btn transparent-btn">LIVE CHAT</button>
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+    <!-- business section  -->
+
+    <div class="container-fluid bussiness">
+      <div class="title">
+        <h2>How Complianto can help your Business?</h2>
+        <p>We believe in helping businesses at 360* angles so you can focus on
+          your core operations business.</p>
+      </div>
+      <!-- Slider main container -->
+      <div class="swiper">
+        <!-- Additional required wrapper -->
+        <div class="swiper-wrapper">
+          <!-- Slides -->
+          <div class="swiper-slide">
+            <div class="box-container">
+              <div class="row">
+                <div class="column1 col-md-3 active">
+                  <div class="inner_section">
+                    <div class="col"><img src="images/img_inner1.png" alt=""></div>
+                    <div class="col">
+                      <h3>COMPANY FORMATION</h3>
+                    </div>
+                    <div class="col">
+                      <p>We can incorporate all kinds of entities required to set up the business such
+                        as private limited
+                        companies, OPC, LLP, Partnership Firm, and many more...</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="column1 col-md-3">
+                  <div class="inner_section">
+                    <div class="col"><img src="images/img_inner2.png" alt=""></div>
+                    <div class="col">
+                      <h3>BUSINESS REGISTRATION
+                        & LICENSING</h3>
+                    </div>
+                    <div class="col">
+                      <p>We can secure all kinds of licenses / registrations required for running
+                        different kinds of business legally and hassle free.</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="column1 col-md-3">
+                  <div class="inner_section">
+                    <div class="col"><img src="images/img_inner3.png" alt=""></div>
+                    <div class="col">
+                      <h3>ACCOUNTING & TAX
+                        COMPLIANCES</h3>
+                    </div>
+                    <div class="col">
+                      <p>We provide Virtual CFO services which includes not only accounting but billing
+                        software, preparation of Balance Sheet , P&L Statement, Tax Return filings, ROC filing and many
+                        more...
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="column1 col-md-3">
+                  <div class="inner_section">
+                    <div class="col"><img src="images/img_inner4.png" alt=""></div>
+                    <div class="col">
+                      <h3>BRANDING &
+                        MARKETING</h3>
+                    </div>
+                    <div class="col">
+                      <p>Logo designing, Trademark, Website Development, Digital Marketing, Do all such
+                        activities to create Online Business Presence.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+          <div class="swiper-slide">
+            <div class="box-container">
+              <div class="row">
+                <div class="column1 col-md-3 active">
+                  <div class="inner_section">
+                    <div class="col"><img src="images/img_inner4.png" alt=""></div>
+                    <div class="col">
+                      <h3>BRANDING &
+                        MARKETING</h3>
+                    </div>
+                    <div class="col">
+                      <p>Logo designing, Trademark, Website Development, Digital Marketing, Do all such
+                        activities to create Online Business Presence.</p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="column1 col-md-3">
+                  <div class="inner_section">
+                    <div class="col"><img src="images/img_inner2.png" alt=""></div>
+                    <div class="col">
+                      <h3>LABOUR LAWS</h3>
+                    </div>
+                    <div class="col">
+                      <p>We can secure all kinds of licenses / registrations required for running
+                        different kinds of business legally and hassle free.</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="column1 col-md-3">
+                  <div class="inner_section">
+                    <div class="col"><img src="images/img_inner3.png" alt=""></div>
+                    <div class="col">
+                      <h3>TRADMARK AND WEBSITE</h3>
+                    </div>
+                    <div class="col">
+                      <p>We provide Virtual CFO services which includes not only accounting but billing
+                        software, preparation of Balance Sheet , P&L Statement, Tax Return filings, ROC filing and many
+                        more...
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="column1 col-md-3">
+                  <div class="inner_section">
+                    <div class="col"><img src="images/img_inner4.png" alt=""></div>
+                    <div class="col">
+                      <h3> ACCOUNTING & ROC COMPLIANCES</h3>
+                    </div>
+                    <div class="col">
+                      <p>Logo designing, Trademark, Website Development, Digital Marketing, Do all such
+                        activities to create Online Business Presence.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+        <!-- If we need pagination -->
+        <div class="swiper-pagination"></div>
+        <!-- If we need navigation buttons -->
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+      </div>
+    </div>
+    <!-- End business section  -->
+
+    <!--  our services section  -->
+
+    <section class="our_services">
+      <div class="title">
+        <h2>Our Services</h2>
+        <p>Setup & Delivered 2,00,000 + New Companies and Business Licenses for
+          ...MSMEs in India and continuing</p>
+      </div>
+
+      <div class="gallary_continer">
+        <div class="row">
+          <div class="col-md-4">
+            <div class="inner_section">
+              <div class=""><img src="images/gall_img1.png" alt=""></div>
+              <div class="">
+                <h2>Company Incorporation</h2>
+              </div>
+              <div class="">
+                <p>The company incorporation is the process that is basically used to form a corporate entity or the
+                  company. The entity can be a Private limited company, One person company, LLP, Partnership firm.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="inner_section">
+              <div class=""><img src="images/our_service2.png" alt=""></div>
+              <div class="">
+                <h2>GST Registration</h2>
+              </div>
+              <div class="">
+                <p>GST Registration is required for firms that have a turnover exceeding INR 20 lakh. Also, the limit
+                  is 10 lakh in northern hilly states.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="inner_section">
+              <div class=""><img src="images/our_service3.png" alt=""></div>
+              <div class="">
+                <h2>ISO Certification</h2>
+              </div>
+              <div class="">
+                <p>The ISO certificate helps to enhance the credibility and authority of your company as well as the
+                  overall effectiveness of the company.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="inner_section">
+              <div class=""><img src="images/our_service4.png" alt=""></div>
+              <div class="">
+                <h2>Trademark registration</h2>
+              </div>
+              <div class="">
+                <p>A trademark registration is the process that proves ownership over the brand, logo, or name. It
+                  also protects your brand from any illegal use by a third party.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="inner_section">
+              <div class=""><img src="images/our_service5.png" alt=""></div>
+              <div class="">
+                <h2>Trademark registration</h2>
+              </div>
+              <div class="">
+                <p>A trademark registration is the process that proves ownership over the brand, logo, or name. It
+                  also protects your brand from any illegal use by a third party..</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="inner_section">
+              <div class=""><img src="images/our_service6.png" alt=""></div>
+              <div class="">
+                <h2> Patent</h2>
+              </div>
+              <div class="">
+                <p>A patent gives you the right to prevent third parties from copying, using, selling, or importing
+                  your discovery without your approval.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="inner_section">
+              <div class=""><img src="images/our_service7.png" alt=""></div>
+              <div class="">
+                <h2> ESIC Registration</h2>
+              </div>
+              <div class="">
+                <p>The ESIC registration provides financial protection to members in event of a sudden health-related
+                  circumstance. The program also provides health, disability, maternity privileges, unemployment
+                  benefits, etc.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="inner_section">
+              <div class=""><img src="images/our_service8.png" alt=""></div>
+              <div class="">
+                <h2> Fssai registration</h2>
+              </div>
+              <div class="">
+                <p>
+                  FSSAI registration is necessary for All the manufacturers, restaurants, and as well as traders who
+                  are involved in the food business. This ensures the safety of food products provided or manufactured
+                  by different companies in India.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="inner_section">
+              <div class=""><img src="images/our_service9.png" alt=""></div>
+              <div class="">
+                <h2>Accounting</h2>
+              </div>
+              <div class="">
+                <p>The Accounting is the systematic process of accounting, analysing, and interpretation of financial
+                  operations. Each & Every company, large or small, is responsible for providing its accounting
+                  records to the Department of Income Tax.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="inner_section">
+              <div class=""><img src="images/our_service10.png" alt=""></div>
+              <div class="">
+                <h2> Income tax return</h2>
+              </div>
+              <div class="">
+                <p>Income tax return is required for the people whose gross income exceeds the tax exemption limit.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="inner_section">
+              <div class=""><img src="images/our_service11.png" alt=""></div>
+              <div class="">
+                <h2> Barcode registration</h2>
+              </div>
+              <div class="">
+                <p>
+                  The barcode registration is needed to encode product details like product numbers, serial numbers,
+                  and batch numbers instantly which also allows identifying product details easily.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="inner_section">
+              <div class=""><img src="images/our_service12.png" alt=""></div>
+              <div class="">
+                <h2> PF registration</h2>
+              </div>
+              <div class="">
+                <p>
+                  The Employee Pension Fund is a social security scheme which helps employees save a small portion of
+                  their salary for future benefits. All companies must offer their employees a EPF or Employee
+                  Provident Fund that is similar to a pension fund.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <div class="gap"></div>
+    <!-- why choose us section -->
+    <div class="why_choose">
+      <article>
+        <h2>Why Choose Us</h2><span></span>
+        <p>In its Global Ethics for Tourism, the Travel Zone India talks about basic transparency such as
+          'objective and
+          honest information on their places of destination</p>
+        <p>Consider booking with a travel agent. We, Travel Zone India not only help you plan your vacation,
+          but they can act as your vacation advocate.</p>
+      </article>
+      <div class="row logo_section">
+        <div class="col-md-2">
+          <div class="text_center">
+            <img src="images/why_choose_middle2.png" alt="">
+            <p>TRANSPARENCY</p>
+          </div>
+        </div>
+
+        <div class="col-md-2">
+          <div class="text_center">
+            <img src="images/why_choose_middle2.png" alt="">
+            <p>BEST TRAVEL GUIDE</p>
+          </div>
+        </div>
+        <div class="col-md-2">
+          <div class="text_center">
+            <img src="images/why_choose_middle3.png" alt="">
+            <p>TRUSTWORTHY</p>
+          </div>
+        </div>
+        <div class="col-md-2">
+          <div class="text_center">
+            <img src="images/why_choose_middle4.png" alt="">
+            <p>24/7 SUPPORT</p>
+          </div>
+        </div>
+        <div class="col-md-2">
+          <div class="text_center">
+            <img src="images/why_choose_middle5.png" alt="">
+            <p>
+              EXCELLENCE IN
+              PERFORMANCE
+            </p>
+          </div>
+        </div>
+        <div class="col-md-2">
+          <div class="text_center">
+            <img src="images/why_choose_middle6.png" alt="">
+            <p>
+              BEST PRICE
+              GUARANTEE
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="row why_choose_lower" style="margin:30px 10% 90px;">
+        <div class="col-md-4">
+          <div class="right_border" style="padding:0 40px;">
+            <img src="images/why_choose_lower1.png" alt="" width="197px" height="82px">
+            <p>We support the Startup India initiative
+              that aims to accelerate entrepreneurship in the country and
+              create startups.
+            </p>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="right_border" style="padding:0 40px;">
+            <img src="images/why_choose_lower2.png" alt="" width="197px" height="82px">
+            <p>We support the Digital India initiative for digitizing Government activities and helping improve
+              digital literarcy.</p>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div style="text-align: center;" style="padding:0 40px;">
+            <img src="images/why_choose_lower3.png" alt="" width="197px" height="82px">
+            <p>We support the Make in India initiative that encourages and facilitates foreign investment into the
+              country.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End of why choose us section -->
+
+    <div class="slider-section">
+      <div class="client-feedback">
+        <p class="slide-title">What our happy client say</p>
+        <p class="details">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+          ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+      </div>
+      <div id="featureContainer">
+        <div class="row mx-auto my-auto justify-content-center">
+          <div id="featureCarousel" class="carousel slide" data-bs-ride="carousel">
+            <!-- <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div> -->
+            <div class="float-end pe-md-4">
+              <a class="indicator" href="#featureCarousel" role="button" data-bs-slide="prev">
+                <span class="fas fa-chevron-left" aria-hidden="true"></span>
+              </a> &nbsp;&nbsp;
+              <a class="w-aut indicator" href="#featureCarousel" role="button" data-bs-slide="next">
+                <span class="fas fa-chevron-right" aria-hidden="true"></span>
+              </a>
+            </div>
+            <div class="carousel-inner" role="listbox">
+              <div class="carousel-item active">
+                <div class="col-md-4">
+                  <div class="card">
+                    <q>With 15+ Years combined experience and continuously serving & understanding MSMEs needs, we
+                      developed a strong system to deliver you the error-free services matching your expectations.</q>
+                    <div class="card-img-wrap">
+                      <div class="card-img">
+                        <img src="images/happy_client.png" class="img-fluid">
+                      </div>
+                      <div class="card-img-overlays">
+                        <p class="name">NAME HERE</p>
+                        <p class="business">Business Man</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="col-md-4">
+                  <div class="card">
+                    <q>With 15+ Years combined experience and continuously serving & understanding MSMEs needs, we
+                      developed a strong system to deliver you the error-free services matching your expectations.</q>
+                    <div class="card-img-wrap">
+                      <div class="card-img">
+                        <img src="images/happy_client.png" class="img-fluid">
+                      </div>
+                      <div class="card-img-overlays">
+                        <p class="name">NAME HERE</p>
+                        <p class="business">Business Man</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="col-md-4">
+                  <div class="card">
+                    <q>With 15+ Years combined experience and continuously serving & understanding MSMEs needs, we
+                      developed a strong system to deliver you the error-free services matching your expectations.</q>
+                    <div class="card-img-wrap">
+                      <div class="card-img">
+                        <img src="images/happy_client.png" class="img-fluid">
+                      </div>
+                      <div class="card-img-overlays">
+                        <p class="name">NAME HERE</p>
+                        <p class="business">Business Man</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="col-md-4">
+                  <div class="card">
+                    <q>With 15+ Years combined experience and continuously serving & understanding MSMEs needs, we
+                      developed a strong system to deliver you the error-free services matching your expectations.</q>
+                    <div class="card-img-wrap">
+                      <div class="card-img">
+                        <img src="images/happy_client.png" class="img-fluid">
+                      </div>
+                      <div class="card-img-overlays">
+                        <p class="name">NAME HERE</p>
+                        <p class="business">Business Man</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="our-clients">
+      <p class="title">Our Clients</p>
+      <ul>
+        <li>
+          <a href="#">
+            <img src="./images/our_client.png" alt="client_logo" />
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <img src="./images/our_client.png" alt="client_logo" />
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <img src="./images/our_client.png" alt="client_logo" />
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <img src="./images/our_client.png" alt="client_logo" />
+          </a>
+        </li>
+      </ul>
+    </div>
+
+    <!-- FOOTER -->
+    <div class="footer1"></div>
+
+    <!-- FOOTER End-->
+
+  </main>
+  <script src="https://code.jquery.com/jquery-3.6.0.slim.min.js"></script>
+
+  <!-- link to scroll header logo inner -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+
+  <script>
+    let items = document.querySelectorAll('#featureContainer .carousel .carousel-item');
+    items.forEach((el) => {
+      const minPerSlide = 3
+      let next = el.nextElementSibling
+      for (var i = 1; i < minPerSlide; i++) {
+        if (!next) {
+          // wrap carousel by using first child
+          next = items[0]
+        }
+        let cloneChild = next.cloneNode(true)
+        el.appendChild(cloneChild.children[0])
+        next = next.nextElementSibling
+      }
+    })
+    $(document).ready(function () {
+      $('#featureCarousel').carousel({ interval: false });
+      $('#featureCarousel').carousel('pause');
+    });
+  </script>
+  <script type="text/javascript">
+
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-36251023-1']);
+    _gaq.push(['_setDomainName', 'jqueryscript.net']);
+    _gaq.push(['_trackPageview']);
+
+    (function () {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+
+  </script>
+  <script>
+    try {
+      fetch(new Request("https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js", { method: 'HEAD', mode: 'no-cors' })).then(function (response) {
+        return true;
+      }).catch(function (e) {
+        var carbonScript = document.createElement("script");
+        carbonScript.src = "//cdn.carbonads.com/carbon.js?serve=CK7DKKQU&placement=wwwjqueryscriptnet";
+        carbonScript.id = "_carbonads_js";
+        document.getElementById("carbon-block").appendChild(carbonScript);
+      });
+    } catch (error) {
+      console.log(error);
+    }
+  </script>
+  <!-- javascript code to slide how complianato can .... -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+  <!-- code for slider pagination and others -->
+  <script>
+    const swiper = new Swiper('.swiper', {
+      autoplay:{
+        delay:3000,
+        disableOnInteration:false,
+      },
+  loop: true,
+  // If we need pagination
+  pagination: {
+    el: '.swiper-pagination',
+    clickable:true,
+  },
+  // Navigation arrows
+  navigation: {
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev',
+  },
+});
+
+  </script>
+  <script src="script.js"></script>
+</body>
+
+</html>
